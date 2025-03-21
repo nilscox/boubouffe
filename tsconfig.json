@@ -1,6 +1,9 @@
 {
   "include": ["src/**/*"],
+  "exclude": ["src/web/*"],
   "compilerOptions": {
+    "module": "ESNext",
+    "moduleResolution": "bundler",
     "noEmit": true,
     "skipLibCheck": true,
     "allowSyntheticDefaultImports": true,
